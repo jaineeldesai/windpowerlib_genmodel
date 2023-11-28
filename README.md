@@ -4,7 +4,7 @@
 The wind farm considered in this project for power generation is an onshore wind farm with a capacity of 40MW, and this system is modelled using Python and a modelling library known as 'windpowerlib'.
 
 ### Site Selection and Weather Data
-To use windpowerlib, the first step is to acquire weather data for a particular location. For the wind farm site in this report, a plain open field is selected in the city of Nordhausen, Germany, at the coordinates (51.4919, 10.8757). The annual wind power output produced from the wind farm is dependent on the wind flowing at the site.
+To use windpowerlib, the first step is to acquire weather data for a particular location. For the wind farm site in this project, a plain open field is selected in the city of Nordhausen, Germany, at the coordinates (51.4919, 10.8757). The annual wind power output produced from the wind farm is dependent on the wind flowing at the site.
 
 To acquire the weather data for this location to be used by the windpowerlib, POWER NASA API is used (https://power.larc.nasa.gov/).
 On executing the API with the user-supplied parameters, the weather dataset in an hourly time-series is ready
